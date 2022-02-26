@@ -1,10 +1,13 @@
 import './App.css';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <div className="container mx-auto">
-      <p>hello world</p>
-  </div>
+    <>
+    <div className="">
+      <Home/>
+    </div>
+    </>
   );
 }
 
